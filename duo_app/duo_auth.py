@@ -103,26 +103,26 @@ def login(request):
         return render(request, 'duo_login.html', context)
     elif request.method == 'POST':
         return HttpResponse('failed')
-        # sig_response = request.POST.get('sig_response', '')
-        # duo_user = duo_web.verify_response(
-        #     settings.DUO_IKEY, settings.DUO_SKEY, settings.DUO_AKEY,
-        #     sig_response)
-        # next_page = request.POST.get('next')
-        # if duo_user is None:
-        #     # Redirect user to try again, keeping the next argument.
-        #     # Note that we don't keep any other arguments.
-        #     arg_map = {'message': 'Duo access denied.'}
-        #     if next_page:
-        #         arg_map['next'] = next_page
-        #     redirect_url = '%s?%s' % (
-        #         request.path, urlencode(arg_map))
-        #     return HttpResponseRedirect(redirect_url)
-        # else:
-        #     duo_authenticate(request)
-        #     if not next_page:
-        #         next_page = settings.LOGIN_REDIRECT_URL
-        #     return HttpResponse('ok')
-            # return HttpResponseRedirect(next_page)
+        sig_response = request.POST.get('sig_response', '')
+        duo_user = duo_web.verify_response(
+            settings.DUO_IKEY, settings.DUO_SKEY, settings.DUO_AKEY,
+            sig_response)
+        next_page = request.POST.get('next')
+        if duo_user is None:
+            # Redirect user to try again, keeping the next argument.
+            # Note that we don't keep any other arguments.
+            arg_map = {'message': 'Duo access denied.'}
+            if next_page:
+                arg_map['next'] = next_page
+            redirect_url = '%s?%s' % (
+                request.path, urlencode(arg_map))
+            return HttpResponseRedirect(redirect_url)
+        else:
+            duo_authenticate(request)
+            if not next_page:
+                next_page = settings.LOGIN_REDIRECT_URL
+            return HttpResponse('ok')
+            return HttpResponseRedirect(next_page)
 
 
 def logout(request, next_page=None,
@@ -131,19 +131,18 @@ def logout(request, next_page=None,
     """
     View to remove Duo authentication.
     """
-    pass
-    # duo_unauthenticate(request)
-    # if next_page is None:
-    #     redirect_to = request.GET.get(redirect_field_name, '')
-    #     if redirect_to:
-    #         return HttpResponseRedirect(redirect_to)
-    #     else:
-    #         current_site = get_current_site(request)
-    #         return render(request, template_name, {
-    #             'site': current_site,
-    #             'site_name': current_site.name,
-    #             'title': _('Logged out')
-    #         })
-    # else:
-    #     # Redirect to this page until the session has been cleared.
-    #     return HttpResponseRedirect(next_page or request.path)
+    duo_unauthenticate(request)
+    if next_page is None:
+        redirect_to = request.GET.get(redirect_field_name, '')
+        if redirect_to:
+            return HttpResponseRedirect(redirect_to)
+        else:
+            current_site = get_current_site(request)
+            return render(request, template_name, {
+                'site': current_site,
+                'site_name': current_site.name,
+                'title': _('Logged out')
+            })
+    else:
+        # Redirect to this page until the session has been cleared.
+        return HttpResponseRedirect(next_page or request.path)
