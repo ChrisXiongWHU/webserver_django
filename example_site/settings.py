@@ -117,3 +117,10 @@ MIDDLEWARE = (
 )
 
 ROOT_URLCONF = 'example_site.urls'
+
+STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "common_static"),
+]
+

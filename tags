@@ -5,92 +5,184 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 ADMINS	example_site/settings.py	/^ADMINS = ($/;"	kind:variable	line:65
+ADMINS	webserver_django/example_site/settings.py	/^ADMINS = ($/;"	kind:variable	line:65
 ADMIN_MEDIA_PREFIX	example_site/settings.py	/^ADMIN_MEDIA_PREFIX = '\/media\/'$/;"	kind:variable	line:106
+ADMIN_MEDIA_PREFIX	webserver_django/example_site/settings.py	/^ADMIN_MEDIA_PREFIX = '\/media\/'$/;"	kind:variable	line:106
 BASE_DIR	example_site/settings.py	/^BASE_DIR = os.path.dirname(os.path.normpath(__file__))$/;"	kind:variable	line:8
+BASE_DIR	webserver_django/example_site/settings.py	/^BASE_DIR = os.path.dirname(os.path.normpath(__file__))$/;"	kind:variable	line:8
 DATABASES	example_site/settings.py	/^DATABASES = {$/;"	kind:variable	line:37
+DATABASES	webserver_django/example_site/settings.py	/^DATABASES = {$/;"	kind:variable	line:37
 DEBUG	example_site/settings.py	/^DEBUG = True$/;"	kind:variable	line:61
+DEBUG	webserver_django/example_site/settings.py	/^DEBUG = True$/;"	kind:variable	line:61
 DUO_AKEY	example_site/settings.py	/^DUO_AKEY = 'x9BgWAd25dnUQbhHgbF9taaaaaaaaaaaaaaaaaaa'$/;"	kind:variable	line:19
+DUO_AKEY	webserver_django/example_site/settings.py	/^DUO_AKEY = 'x9BgWAd25dnUQbhHgbF9taaaaaaaaaaaaaaaaaaa'$/;"	kind:variable	line:19
 DUO_HOST	example_site/settings.py	/^DUO_HOST = 'api-DHA4ufjn'$/;"	kind:variable	line:20
+DUO_HOST	webserver_django/example_site/settings.py	/^DUO_HOST = 'api-DHA4ufjn'$/;"	kind:variable	line:20
 DUO_IKEY	example_site/settings.py	/^DUO_IKEY = 'pKhdMgCQOO2mrKPomCRs'$/;"	kind:variable	line:17
+DUO_IKEY	webserver_django/example_site/settings.py	/^DUO_IKEY = 'pKhdMgCQOO2mrKPomCRs'$/;"	kind:variable	line:17
 DUO_LOGIN_URL	example_site/settings.py	/^DUO_LOGIN_URL = '\/accounts\/duo_login'$/;"	kind:variable	line:14
+DUO_LOGIN_URL	webserver_django/example_site/settings.py	/^DUO_LOGIN_URL = '\/accounts\/duo_login'$/;"	kind:variable	line:14
 DUO_SKEY	example_site/settings.py	/^DUO_SKEY = 'mBMayeaovwGVwuXFUmExdtUy8bABVbsWViS61zON'$/;"	kind:variable	line:18
+DUO_SKEY	webserver_django/example_site/settings.py	/^DUO_SKEY = 'mBMayeaovwGVwuXFUmExdtUy8bABVbsWViS61zON'$/;"	kind:variable	line:18
 HttpResponse	duo_app/duo_auth.py	/^from django.http import HttpResponseRedirect,HttpResponse$/;"	kind:namespace	line:3
 HttpResponse	example_site/views.py	/^from django.http import HttpResponse, HttpResponseRedirect$/;"	kind:namespace	line:1
+HttpResponse	webserver_django/duo_app/duo_auth.py	/^from django.http import HttpResponseRedirect,HttpResponse$/;"	kind:namespace	line:3
+HttpResponse	webserver_django/example_site/views.py	/^from django.http import HttpResponse, HttpResponseRedirect$/;"	kind:namespace	line:1
 HttpResponseRedirect	duo_app/duo_auth.py	/^from django.http import HttpResponseRedirect,HttpResponse$/;"	kind:namespace	line:3
 HttpResponseRedirect	example_site/views.py	/^from django.http import HttpResponse, HttpResponseRedirect$/;"	kind:namespace	line:1
+HttpResponseRedirect	webserver_django/duo_app/duo_auth.py	/^from django.http import HttpResponseRedirect,HttpResponse$/;"	kind:namespace	line:3
+HttpResponseRedirect	webserver_django/example_site/views.py	/^from django.http import HttpResponse, HttpResponseRedirect$/;"	kind:namespace	line:1
 INSTALLED_APPS	example_site/settings.py	/^INSTALLED_APPS = ($/;"	kind:variable	line:27
+INSTALLED_APPS	webserver_django/example_site/settings.py	/^INSTALLED_APPS = ($/;"	kind:variable	line:27
 INTERNAL_IPS	example_site/settings.py	/^INTERNAL_IPS = ['*']$/;"	kind:variable	line:63
+INTERNAL_IPS	webserver_django/example_site/settings.py	/^INTERNAL_IPS = ['*']$/;"	kind:variable	line:63
 LANGUAGE_CODE	example_site/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:82
+LANGUAGE_CODE	webserver_django/example_site/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:82
 LOGIN_URL	example_site/settings.py	/^LOGIN_URL = '\/accounts\/login'$/;"	kind:variable	line:11
+LOGIN_URL	webserver_django/example_site/settings.py	/^LOGIN_URL = '\/accounts\/login'$/;"	kind:variable	line:11
 MANAGERS	example_site/settings.py	/^MANAGERS = ADMINS$/;"	kind:variable	line:69
+MANAGERS	webserver_django/example_site/settings.py	/^MANAGERS = ADMINS$/;"	kind:variable	line:69
 MEDIA_ROOT	example_site/settings.py	/^MEDIA_ROOT = ''$/;"	kind:variable	line:96
+MEDIA_ROOT	webserver_django/example_site/settings.py	/^MEDIA_ROOT = ''$/;"	kind:variable	line:96
 MEDIA_URL	example_site/settings.py	/^MEDIA_URL = ''$/;"	kind:variable	line:101
+MEDIA_URL	webserver_django/example_site/settings.py	/^MEDIA_URL = ''$/;"	kind:variable	line:101
 MIDDLEWARE	example_site/settings.py	/^MIDDLEWARE = ($/;"	kind:variable	line:111
+MIDDLEWARE	webserver_django/example_site/settings.py	/^MIDDLEWARE = ($/;"	kind:variable	line:111
 REDIRECT_FIELD_NAME	duo_app/duo_auth.py	/^from django.contrib.auth import REDIRECT_FIELD_NAME$/;"	kind:namespace	line:8
+REDIRECT_FIELD_NAME	webserver_django/duo_app/duo_auth.py	/^from django.contrib.auth import REDIRECT_FIELD_NAME$/;"	kind:namespace	line:8
 ROOT_URLCONF	example_site/settings.py	/^ROOT_URLCONF = 'example_site.urls'$/;"	kind:variable	line:119
+ROOT_URLCONF	webserver_django/example_site/settings.py	/^ROOT_URLCONF = 'example_site.urls'$/;"	kind:variable	line:119
 SECRET_KEY	example_site/settings.py	/^SECRET_KEY = '6#jhv1%cj)!4ajbw8c&-=v!d3x*elcp$let02zh&n!rs4d**%j'$/;"	kind:variable	line:109
+SECRET_KEY	webserver_django/example_site/settings.py	/^SECRET_KEY = '6#jhv1%cj)!4ajbw8c&-=v!d3x*elcp$let02zh&n!rs4d**%j'$/;"	kind:variable	line:109
 SITE_ID	example_site/settings.py	/^SITE_ID = 1$/;"	kind:variable	line:84
+SITE_ID	webserver_django/example_site/settings.py	/^SITE_ID = 1$/;"	kind:variable	line:84
 STATIC_URL	example_site/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:25
+STATIC_URL	webserver_django/example_site/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:25
 TEMPLATES	example_site/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:44
+TEMPLATES	webserver_django/example_site/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:44
 TIME_ZONE	example_site/settings.py	/^TIME_ZONE = 'Asia\/Shanghai' $/;"	kind:variable	line:78
+TIME_ZONE	webserver_django/example_site/settings.py	/^TIME_ZONE = 'Asia\/Shanghai' $/;"	kind:variable	line:78
 USE_I18N	example_site/settings.py	/^USE_I18N = True$/;"	kind:variable	line:88
+USE_I18N	webserver_django/example_site/settings.py	/^USE_I18N = True$/;"	kind:variable	line:88
 USE_L10N	example_site/settings.py	/^USE_L10N = True$/;"	kind:variable	line:92
+USE_L10N	webserver_django/example_site/settings.py	/^USE_L10N = True$/;"	kind:variable	line:92
 User	addUser.py	/^from django.contrib.auth.models import User$/;"	kind:namespace	line:5
+User	webserver_django/addUser.py	/^from django.contrib.auth.models import User$/;"	kind:namespace	line:5
 _	duo_app/duo_auth.py	/^from django.utils.translation import ugettext as _$/;"	kind:namespace	line:12
+_	webserver_django/duo_app/duo_auth.py	/^from django.utils.translation import ugettext as _$/;"	kind:namespace	line:12
 __init__.py	duo_app/__init__.py	1;"	kind:file	line:1
 __init__.py	example_site/__init__.py	1;"	kind:file	line:1
+__init__.py	webserver_django/duo_app/__init__.py	1;"	kind:file	line:1
+__init__.py	webserver_django/example_site/__init__.py	1;"	kind:file	line:1
 _wrapped_view	duo_app/duo_auth.py	/^        def _wrapped_view(request, *args, **kwargs):$/;"	kind:function	line:59
+_wrapped_view	webserver_django/duo_app/duo_auth.py	/^        def _wrapped_view(request, *args, **kwargs):$/;"	kind:function	line:59
+a.py	a.py	1;"	kind:file	line:1
+a.py	webserver_django/a.py	1;"	kind:file	line:1
 addUser.py	addUser.py	1;"	kind:file	line:1
+addUser.py	webserver_django/addUser.py	1;"	kind:file	line:1
 admin	example_site/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:4
+admin	webserver_django/example_site/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:4
 available_attrs	duo_app/duo_auth.py	/^from django.utils.decorators import available_attrs$/;"	kind:namespace	line:6
+available_attrs	webserver_django/duo_app/duo_auth.py	/^from django.utils.decorators import available_attrs$/;"	kind:namespace	line:6
 decorator	duo_app/duo_auth.py	/^    def decorator(view_func):$/;"	kind:function	line:57
+decorator	webserver_django/duo_app/duo_auth.py	/^    def decorator(view_func):$/;"	kind:function	line:57
 django	addUser.py	/^import django$/;"	kind:namespace	line:3
+django	webserver_django/addUser.py	/^import django$/;"	kind:namespace	line:3
 duo_app	example_site/urls.py	/^import duo_app$/;"	kind:namespace	line:11
+duo_app	webserver_django/example_site/urls.py	/^import duo_app$/;"	kind:namespace	line:11
 duo_auth	duo_app/urls.py	/^from . import duo_auth$/;"	kind:namespace	line:2
 duo_auth	example_site/views.py	/^from duo_app import duo_auth$/;"	kind:namespace	line:5
+duo_auth	webserver_django/duo_app/urls.py	/^from . import duo_auth$/;"	kind:namespace	line:2
+duo_auth	webserver_django/example_site/views.py	/^from duo_app import duo_auth$/;"	kind:namespace	line:5
 duo_auth.py	duo_app/duo_auth.py	1;"	kind:file	line:1
+duo_auth.py	webserver_django/duo_app/duo_auth.py	1;"	kind:file	line:1
 duo_auth_required	duo_app/duo_auth.py	/^def duo_auth_required(view_func, redirect_field_name=REDIRECT_FIELD_NAME):$/;"	kind:function	line:52
+duo_auth_required	webserver_django/duo_app/duo_auth.py	/^def duo_auth_required(view_func, redirect_field_name=REDIRECT_FIELD_NAME):$/;"	kind:function	line:52
 duo_authenticate	duo_app/duo_auth.py	/^def duo_authenticate(request):$/;"	kind:function	line:32
+duo_authenticate	webserver_django/duo_app/duo_auth.py	/^def duo_authenticate(request):$/;"	kind:function	line:32
 duo_authenticated	duo_app/duo_auth.py	/^def duo_authenticated(request):$/;"	kind:function	line:23
+duo_authenticated	webserver_django/duo_app/duo_auth.py	/^def duo_authenticated(request):$/;"	kind:function	line:23
 duo_private	example_site/urls.py	/^from example_site.views import (private, public, duo_private,$/;"	kind:namespace	line:7
 duo_private	example_site/views.py	/^def duo_private(request):$/;"	kind:function	line:10
+duo_private	webserver_django/example_site/urls.py	/^from example_site.views import (private, public, duo_private,$/;"	kind:namespace	line:7
+duo_private	webserver_django/example_site/views.py	/^def duo_private(request):$/;"	kind:function	line:10
 duo_private_manual	example_site/views.py	/^def duo_private_manual(request):$/;"	kind:function	line:22
+duo_private_manual	webserver_django/example_site/views.py	/^def duo_private_manual(request):$/;"	kind:function	line:22
 duo_unauthenticate	duo_app/duo_auth.py	/^def duo_unauthenticate(request):$/;"	kind:function	line:39
+duo_unauthenticate	webserver_django/duo_app/duo_auth.py	/^def duo_unauthenticate(request):$/;"	kind:function	line:39
 duo_username	duo_app/duo_auth.py	/^def duo_username(user):$/;"	kind:function	line:18
+duo_username	webserver_django/duo_app/duo_auth.py	/^def duo_username(user):$/;"	kind:function	line:18
 duo_web	duo_app/duo_auth.py	/^import duo_web$/;"	kind:namespace	line:14
+duo_web	webserver_django/duo_app/duo_auth.py	/^import duo_web$/;"	kind:namespace	line:14
 execute_from_command_line	manage.py	/^    from django.core.management import execute_from_command_line$/;"	kind:namespace	line:11
+execute_from_command_line	webserver_django/manage.py	/^    from django.core.management import execute_from_command_line$/;"	kind:namespace	line:11
 get_current_site	duo_app/duo_auth.py	/^from django.contrib.sites.shortcuts import get_current_site$/;"	kind:namespace	line:9
+get_current_site	webserver_django/duo_app/duo_auth.py	/^from django.contrib.sites.shortcuts import get_current_site$/;"	kind:namespace	line:9
 include	example_site/urls.py	/^from django.conf.urls import include, url$/;"	kind:namespace	line:1
+include	webserver_django/example_site/urls.py	/^from django.conf.urls import include, url$/;"	kind:namespace	line:1
 login	duo_app/duo_auth.py	/^def login(request):$/;"	kind:function	line:75
 login	example_site/urls.py	/^from django.contrib.auth.views import login, logout$/;"	kind:namespace	line:10
+login	webserver_django/duo_app/duo_auth.py	/^def login(request):$/;"	kind:function	line:75
+login	webserver_django/example_site/urls.py	/^from django.contrib.auth.views import login, logout$/;"	kind:namespace	line:10
 login_required	duo_app/duo_auth.py	/^from django.contrib.auth.decorators import login_required$/;"	kind:namespace	line:7
 login_required	example_site/views.py	/^from django.contrib.auth.decorators import login_required$/;"	kind:namespace	line:2
-logout	duo_app/duo_auth.py	/^def logout(request, next_page=None,$/;"	kind:function	line:127
+login_required	webserver_django/duo_app/duo_auth.py	/^from django.contrib.auth.decorators import login_required$/;"	kind:namespace	line:7
+login_required	webserver_django/example_site/views.py	/^from django.contrib.auth.decorators import login_required$/;"	kind:namespace	line:2
+logout	duo_app/duo_auth.py	/^def logout(request, next_page=None,$/;"	kind:function	line:128
 logout	example_site/urls.py	/^from django.contrib.auth.views import login, logout$/;"	kind:namespace	line:10
+logout	webserver_django/duo_app/duo_auth.py	/^def logout(request, next_page=None,$/;"	kind:function	line:127
+logout	webserver_django/example_site/urls.py	/^from django.contrib.auth.views import login, logout$/;"	kind:namespace	line:10
 manage.py	manage.py	1;"	kind:file	line:1
+manage.py	webserver_django/manage.py	1;"	kind:file	line:1
 os	addUser.py	/^import os$/;"	kind:namespace	line:1
 os	example_site/settings.py	/^import os$/;"	kind:namespace	line:7
 os	manage.py	/^import os$/;"	kind:namespace	line:2
+os	webserver_django/addUser.py	/^import os$/;"	kind:namespace	line:1
+os	webserver_django/example_site/settings.py	/^import os$/;"	kind:namespace	line:7
+os	webserver_django/manage.py	/^import os$/;"	kind:namespace	line:2
 private	example_site/urls.py	/^from example_site.views import (private, public, duo_private,$/;"	kind:namespace	line:7
 private	example_site/views.py	/^def private(request):$/;"	kind:function	line:37
+private	webserver_django/example_site/urls.py	/^from example_site.views import (private, public, duo_private,$/;"	kind:namespace	line:7
+private	webserver_django/example_site/views.py	/^def private(request):$/;"	kind:function	line:37
 profile	example_site/views.py	/^def profile(request):$/;"	kind:function	line:55
+profile	webserver_django/example_site/views.py	/^def profile(request):$/;"	kind:function	line:55
 public	example_site/urls.py	/^from example_site.views import (private, public, duo_private,$/;"	kind:namespace	line:7
 public	example_site/views.py	/^def public(request):$/;"	kind:function	line:48
+public	webserver_django/example_site/urls.py	/^from example_site.views import (private, public, duo_private,$/;"	kind:namespace	line:7
+public	webserver_django/example_site/views.py	/^def public(request):$/;"	kind:function	line:48
 render	duo_app/duo_auth.py	/^from django.shortcuts import render$/;"	kind:namespace	line:11
+render	webserver_django/duo_app/duo_auth.py	/^from django.shortcuts import render$/;"	kind:namespace	line:11
 require_http_methods	duo_app/duo_auth.py	/^from django.views.decorators.http import require_http_methods$/;"	kind:namespace	line:5
+require_http_methods	webserver_django/duo_app/duo_auth.py	/^from django.views.decorators.http import require_http_methods$/;"	kind:namespace	line:5
 settings	duo_app/duo_auth.py	/^from django.conf import settings$/;"	kind:namespace	line:4
 settings	example_site/views.py	/^from django.conf import settings$/;"	kind:namespace	line:3
+settings	webserver_django/duo_app/duo_auth.py	/^from django.conf import settings$/;"	kind:namespace	line:4
+settings	webserver_django/example_site/views.py	/^from django.conf import settings$/;"	kind:namespace	line:3
 settings.py	example_site/settings.py	1;"	kind:file	line:1
+settings.py	webserver_django/example_site/settings.py	1;"	kind:file	line:1
 staticfiles_urlpatterns	example_site/urls.py	/^from django.contrib.staticfiles.urls import staticfiles_urlpatterns$/;"	kind:namespace	line:2
+staticfiles_urlpatterns	webserver_django/example_site/urls.py	/^from django.contrib.staticfiles.urls import staticfiles_urlpatterns$/;"	kind:namespace	line:2
 sys	manage.py	/^import sys$/;"	kind:namespace	line:3
+sys	webserver_django/manage.py	/^import sys$/;"	kind:namespace	line:3
 url	duo_app/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:1
 url	example_site/urls.py	/^from django.conf.urls import include, url$/;"	kind:namespace	line:1
+url	webserver_django/duo_app/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:1
+url	webserver_django/example_site/urls.py	/^from django.conf.urls import include, url$/;"	kind:namespace	line:1
 urlencode	duo_app/duo_auth.py	/^from six.moves.urllib.parse import urlencode$/;"	kind:namespace	line:15
+urlencode	webserver_django/duo_app/duo_auth.py	/^from six.moves.urllib.parse import urlencode$/;"	kind:namespace	line:15
 urlpatterns	duo_app/urls.py	/^urlpatterns = [$/;"	kind:variable	line:4
 urlpatterns	example_site/urls.py	/^urlpatterns = [$/;"	kind:variable	line:13
+urlpatterns	webserver_django/duo_app/urls.py	/^urlpatterns = [$/;"	kind:variable	line:4
+urlpatterns	webserver_django/example_site/urls.py	/^urlpatterns = [$/;"	kind:variable	line:13
 urlquote	duo_app/duo_auth.py	/^from django.utils.http import urlquote$/;"	kind:namespace	line:10
+urlquote	webserver_django/duo_app/duo_auth.py	/^from django.utils.http import urlquote$/;"	kind:namespace	line:10
 urls.py	duo_app/urls.py	1;"	kind:file	line:1
 urls.py	example_site/urls.py	1;"	kind:file	line:1
+urls.py	webserver_django/duo_app/urls.py	1;"	kind:file	line:1
+urls.py	webserver_django/example_site/urls.py	1;"	kind:file	line:1
 user	addUser.py	/^user = User.objects.create_user('xrb', '1050358918@qq.com', '123')$/;"	kind:variable	line:6
+user	webserver_django/addUser.py	/^user = User.objects.create_user('xrb', '1050358918@qq.com', '123')$/;"	kind:variable	line:6
 views.py	example_site/views.py	1;"	kind:file	line:1
+views.py	webserver_django/example_site/views.py	1;"	kind:file	line:1
 wraps	duo_app/duo_auth.py	/^from functools import wraps$/;"	kind:namespace	line:1
+wraps	webserver_django/duo_app/duo_auth.py	/^from functools import wraps$/;"	kind:namespace	line:1

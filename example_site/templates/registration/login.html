@@ -5,22 +5,33 @@
 {% if form.errors %}
 <p>Your username and password didn't match. Please try again.</p>
 {% endif %}
-
 <form method="post">
 {% csrf_token %}
-<table>
-<tr>
-    <td>{{ form.username.label_tag }}</td>
-    <td>{{ form.username }}</td>
-</tr>
-<tr>
-    <td>{{ form.password.label_tag }}</td>
-    <td>{{ form.password }}</td>
-</tr>
-</table>
+		<div class="container-fluid">
+			<div class="center-block" style="width: 300px">
+			<h1 class="text-center" style="font-size: 50px"><span class="glyphicon glyphicon-piggy-bank" aria-hidden="true"></span></h1>
+			<p class="lead text-center">登入到Blog</p>	
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail1">用户名</label>
+							<input name="username" class="form-control" id="exampleInputEmail1" placeholder="Email">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1">密码</label>
+							<input name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+						</div>
+						<button type="submit" class="btn btn-success btn-block">登陆</button>
+                        <input type="hidden" name="next" value="{{ next }}" />
+					</form>`
+				</div>
+			</div>
+			<div class="well">
+				你是新用户吗？<a href="">点击创建一个账号</a>
+			</div>	
+			</div>
+		</div>
 
-<input type="submit" value="login" />
-<input type="hidden" name="next" value="{{ next }}" />
-</form>
 
 {% endblock %}

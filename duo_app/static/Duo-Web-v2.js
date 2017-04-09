@@ -145,7 +145,7 @@ window.Duo = (function(document, window) {
      */
     function isDuoMessage(event) {
         return Boolean(
-            event.origin === ('https://' + host) &&
+            event.origin === ('http://localhost:8000') &&
             typeof event.data === 'string' &&
             (
                 event.data.match(DUO_MESSAGE_FORMAT) ||
